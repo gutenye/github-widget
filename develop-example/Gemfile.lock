@@ -7,7 +7,8 @@ GIT
 
 GIT
   remote: git://github.com/GutenYe/sproutcore-rails.git
-  revision: 0138980b2025ab69256c62289ae5b2805c70cfd9
+  revision: 4ad18a6c34d39d132bca2110eddd1281152af860
+  branch: source
   specs:
     sproutcore-rails (0.1.0)
 

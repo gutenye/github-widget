@@ -1,0 +1,1 @@
+../../../../../app/assets/javascripts/github-widget/projects.js.coffee

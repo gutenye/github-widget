@@ -8,7 +8,7 @@ window.github_username ?= 'gutenye'
 user = gh.user(window.github_username)
 
 user.allRepos (data) ->
-	GithubWidget.projectsController.set 'content', data.repositories
+	GithubWidget.projectsController.set 'content',data.repositories
 
 GithubWidget.ProjectView = SC.View.extend
 	public: ( ->
