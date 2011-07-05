@@ -6,10 +6,9 @@ Overview
 
 a widget provides your repositores, activities, ..  current only repositores part is implemented.  for activities, see [github-timelime-widget](https://github.com/alindeman/github-timeline-widget)
 
-a live [Demo](xx)
+**Live Demo** [github-widget.heroku.com](http://github-widget.heroku.com)
 
-a screenshot
-
+![screenshot](https://github.com/GutenYe/github-widget/raw/master/snapshot.png)
 
 Dependency
 ----------
