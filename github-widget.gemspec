@@ -4,9 +4,10 @@ require "github-widget/version"
 Gem::Specification.new do |s|
 	s.name = "github-widget"
 	s.version = GithubWidget::VERSION::IS
-	s.summary = "x"
+	s.summary = "a client-side, complete Github Widget."
+
 	s.description = <<-EOF
-	x
+a client-side, complete Github Widget, include reposotires, user activities, .... developping with Sproutcore2.0, Rails3.1, Coffeescript, Sass, HTML5.
 	EOF
 
 	s.author = "Guten"

@@ -1,0 +1,11 @@
+Description:
+		generate github-widget source code.
+
+Example:
+    rails generate github_widget
+
+    This will create:
+
+			app/assets/javascripts/github-widget/projects.js.coffee
+			app/assets/stylesheets/github-widget/projects.css.sass.erb
+			...

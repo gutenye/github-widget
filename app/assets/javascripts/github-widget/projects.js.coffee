@@ -3,7 +3,9 @@ window.GithubWidget = SC.Application.create()
 GithubWidget.projectsController = SC.ArrayProxy.create
 	content: []
 
-user = gh.user('gutenye')
+window.github_username ?= 'gutenye'
+
+user = gh.user(window.github_username)
 
 user.allRepos (data) ->
 	GithubWidget.projectsController.set 'content', data.repositories
