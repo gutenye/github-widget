@@ -75,6 +75,10 @@ Set up development environment
 	cd develop # is a rails3.1 application
 	# develop and test
 
+	# it's import to symlink the outside file into rails project.
+	cd develop/app/assets/javascripts/github-widget
+	ln -s ../../../../../app/assets/javascripts/github-widget/projects.js.coffee 
+
 
 Resources
 =========
