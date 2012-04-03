@@ -1,6 +1,13 @@
 github-widget, a client-side, complete Github Widget.
 ====================================================
 
+| Homepage:      |  https://github.com/GutenYe/github-widget       |
+|----------------|------------------------------------------------------       |
+| Author:	       | Guten                                                 |
+| License:       | MIT-LICENSE                                                |
+| Documentation: | http://rubydoc.info/gems/github-widget/frames                |
+| Issue Tracker: | https://github.com/GutenYe/github-widget/issues |
+
 Overview
 --------
 
@@ -18,7 +25,6 @@ Dependency
 * HTML5 
 * Coffescript 
 * Sass
-
 
 INSTALL & USAGE
 ---------------
@@ -65,6 +71,16 @@ this will create a list of source code.
 	app/assets/stylesheets/github-widget/projects.css.sass.erb
 	...
 
+Note on Patches/Pull Requests
+-----------------------------
+
+1. Fork the project.
+2. Make your feature addition or bug fix.
+3. Add tests for it. This is important so I don't break it in a future version unintentionally.
+4. Commit, do not mess with rakefile, version, or history. (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
+5. Send me a pull request. Bonus points for topic branches.
+6. Coding Style Guide: https://gist.github.com/1105334
+
 
 Contributing
 -------------
@@ -79,7 +95,6 @@ Set up development environment
 	cd develop/app/assets/javascripts/github-widget
 	ln -s ../../../../../app/assets/javascripts/github-widget/projects.js.coffee 
 
-
 Resources
 =========
 
@@ -90,3 +105,15 @@ Resources
 * [sass](https://github.com/nex3/sass) Sass makes CSS fun again. 
 * [html5-boilerplate](https://github.com/paulirish/html5-boilerplate) starting html/css template. so much goodness baked in by default.
 
+Copyright
+---------
+
+(the MIT License)
+
+Copyright (c) 2011-2012 Guten
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
